@@ -1,0 +1,54 @@
+@import '../variables.scss';
+
+
+.newsletter__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: $clr__black21;
+    border-radius: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 15px;
+    .newsletter__text {
+        text-align: center;
+        font-family: 'PTSans-Regular';
+        font-size: 14px;
+        line-height: 16px;
+        
+        p {
+            color: $clr__greyC7;
+        }
+    }
+
+    .newsletter__subcontainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-family: 'PTSans-Regular';
+        font-size: 14px;
+        padding: 15px;  
+        
+        label {
+            color: $clr__whiteFF;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+          input {
+            height: 20px;
+            margin: 15px;
+          }
+        }
+        button {
+            border: 0;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 0;
+            border-radius: 10px;
+            span {
+               margin: 0;
+            }
+        }
+    }
+
+}

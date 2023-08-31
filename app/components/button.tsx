@@ -10,8 +10,6 @@ interface ButtonProps {
 
 export function Button(props: ButtonProps) {
     return  (
-<div>
     <span className={styles[props.type]+' '+styles[props.color]}>{props.name}</span>
-</div>
     )
 }

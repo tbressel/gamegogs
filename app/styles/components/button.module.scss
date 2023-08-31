@@ -13,3 +13,8 @@
 }
 .btn__color-empty {background-color: none;}
 .btn__color-orange {background-color:$clr__orangeFF;}
+.btn__color-green {
+    background-color:$clr__green3F;
+    color: $clr__whiteFF;
+    font-family: 'PTSans-Bold';
+}

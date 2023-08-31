@@ -1,4 +1,8 @@
 @import './variables.scss';
 
 
-.body__container {background-color: $clr__grey63;}
+.body__container {
+    background-color: $clr__grey63;
+    min-width: 320px;
+    width: fit-content;
+}
