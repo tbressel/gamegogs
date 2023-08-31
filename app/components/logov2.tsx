@@ -16,7 +16,7 @@ export function Logo_v2() {
                 </div>
                 <div className={styles.logo__hook}>
                     <p>
-                        "la chasse aux trésors"
+                    &quot;la chasse aux trésors&quot;
                     </p>
                 </div>
             </div>
