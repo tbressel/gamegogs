@@ -1,0 +1,15 @@
+@import '../variables.scss';
+
+
+.btn {
+    display: flex;
+    width: fit-content;
+    padding: 6px;
+    margin: 14px 8px 8px 8px;
+    border: 1px rgba(0, 0, 0, 0.434) solid;
+    border-radius: 10px;
+    font-family: 'PTSans-Regular';
+    font-size: 14px;
+}
+.btn__color-empty {background-color: none;}
+.btn__color-orange {background-color:$clr__orangeFF;}

@@ -1,0 +1,39 @@
+@import '../variables.scss';
+
+.logo__container {
+    padding: 2px;
+    width: fit-content;
+    .logo__subcontainer {
+        display: flex;
+        flex-direction: row;
+        padding: 2px;
+        .logo__image img {
+            width: 30px;
+            height: auto;
+        }
+        .logo__title {
+            margin-top: auto;
+            margin-bottom: auto;
+            font-family: 'Iceland-Regular';
+            font-size: 20px;
+            text-transform: capitalize;
+            h3 {
+                color: $clr__greyC7;
+            }
+        }
+    }
+    .logo__hook {
+        display: flex;
+        justify-content: center;
+        font-family: 'PTSans-Regular';
+        font-size: 10px;
+        margin-top: -10px;
+        padding: 2px;
+        letter-spacing: 0.06rem;
+        text-transform: lowercase;
+
+        p {
+            color: $clr__greyC7;
+        }
+    }
+}
