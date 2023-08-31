@@ -4,11 +4,10 @@
 .searchbar {
     display: flex;
     flex-direction: row;
-    justify-content: left;
     margin: 10px 10px 10px 0px;
     input {
         height: 30px;
-        width: 14rem;
+        width: 50vw;
         border: none;
         border-radius: 10px 0px 0px 10px;
         background-color: $clr__whiteFF;
