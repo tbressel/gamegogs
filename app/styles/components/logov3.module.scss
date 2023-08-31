@@ -1,0 +1,34 @@
+@import '../variables.scss';
+
+.logo__container {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    .logo__image img {
+        width: 60px;
+        height: auto;
+    }
+        .logo__title {        
+            font-family: 'Iceland-Regular';
+            font-size: 30px;
+            text-transform: capitalize;
+            letter-spacing: .25rem;
+            h3 {
+                color: $clr__greyC7;
+            }
+        }
+        .logo__hook {
+            display: flex;
+            font-family: 'PTSans-Regular';
+            font-size: 14px;          
+            letter-spacing: 0.2rem;
+            text-transform: lowercase;
+    
+            p {
+                color: $clr__greyC7;
+            }
+        }
+    }

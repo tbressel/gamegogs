@@ -1,0 +1,57 @@
+@import '../variables.scss';
+
+.footer__menuContainer {
+    padding: 2px;
+    .footer__menu_ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 5px;
+        margin: 5px;
+        
+        .footer__menu_li {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 2px;
+            margin-bottom: 10px;
+            span {
+                color: $clr__greyC7;
+            }
+            span:hover {
+                cursor: pointer;
+                color: $clr__grey63;
+            }
+        }
+        
+        .footer__menu_li ul {
+            text-align: center;
+            li {
+                width: 100%;
+                border-bottom: solid $clr__grey63 1px;
+                padding: 10px;
+                a {
+                    color: $clr__grey63
+                }
+                a:hover {
+                    cursor: pointer;
+                    color: $clr__greyC7;
+                }
+            }
+        }
+    }
+}
+
+.hidden {
+    display: none;
+
+
+}
+
+.display {
+   display: flex;
+   flex-direction: column;
+
+ 
+}
+
