@@ -1,0 +1,11 @@
+@import '../variables.scss';
+
+.footer__container {
+    display: flex;
+    flex-direction: column;
+    background-color: $clr__black21;
+    border-radius: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 15px;
+}

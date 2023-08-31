@@ -2,6 +2,7 @@
 
 import { Header_v1} from './components/headerv1';
 import { Newsletter } from './components/newsletter';
+import { Footer_v1 } from './components/footerv1';
 
 export default function Page() {
 
@@ -9,6 +10,8 @@ export default function Page() {
 <>
 <Header_v1 />
 <Newsletter />
+<Footer_v1 />
+
 </>
   )
 }

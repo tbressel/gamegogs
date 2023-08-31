@@ -1,0 +1,27 @@
+@import '../variables.scss';
+
+.social__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+
+    .btn__socialfb svg,
+    .btn__applestore svg,
+    .btn__googleplay svg,
+    .btn__twitter svg {
+        width: 40px;
+        height: auto;
+        fill: $clr__grey3B;
+    }
+
+    .btn__socialfb svg:hover,
+    .btn__applestore svg:hover,
+    .btn__googleplay svg:hover,
+    .btn__twitter svg:hover {
+        width: 40px;
+        height: auto;
+        fill: $clr__greyC7;
+    }
+}
